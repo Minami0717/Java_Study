@@ -1,5 +1,5 @@
 package com.green.java.ch07;
-//change
+
 public class PolyArgumentTest {
     public static void main(String[] args) {
         Tv2 tv = new Tv2();
@@ -12,7 +12,7 @@ public class PolyArgumentTest {
         buyer.printState();
     }
 }
-/
+
 class Buyer {
     private int money;
     private int bonusPoint;
