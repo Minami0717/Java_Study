@@ -10,5 +10,10 @@ public class ArrayStudy4 {
         for (int i = 0; i < copyArr.length; i++) {
             System.out.printf("copyArr[%d] : %d\n", i, copyArr[i]);
         }
+
+        printArr(new int[] { 1,2,3 });
+    }
+    static void printArr(int[] arr) {
+
     }
 }

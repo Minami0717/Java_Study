@@ -1,5 +1,7 @@
 package com.green.java.ch07;
 
+import com.green.java.blackjack.Card;
+
 public class CastingTest1 {
     public static void main(String[] args) {
         Car car = null;
@@ -8,6 +10,7 @@ public class CastingTest1 {
 
         fc.water();
         car = fc;
+        //car = new Car();
 
         if (car instanceof FireCar) {
             fc2 = (FireCar) car;

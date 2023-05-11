@@ -13,13 +13,13 @@ public class TvTest5 {
         tv2.brand = "기아";
         Tv.brand = "폭스바겐";
 
-        TvTest5.brand = "볼보";
+        brand = "볼보";
 
         System.out.println("tv1.color = " + tv1.color);
         System.out.println("tv2.color = " + tv2.color);
 
-        System.out.println("tv1.brand = " + tv1.brand);
-        System.out.println("tv2.brand = " + tv2.brand);
+//        System.out.println("tv1.brand = " + tv1.brand);
+//        System.out.println("tv2.brand = " + tv2.brand);
         System.out.println("Tv.brand = " + Tv.brand);
     }
 }

@@ -4,7 +4,7 @@ public class CardDeck {
     Card[] cards;
     int idx;
 
-    CardDeck() {
+    public CardDeck() {
         cards = new Card[52];
         int cIdx = 0;
         for (int i = 0; i < Card.KINDS.length; i++) {
@@ -31,12 +31,12 @@ public class CardDeck {
             }
         }
     }
-    void openCards() {
+    public void openCards() {
         for (Card c : cards) {
             System.out.println(c);
         }
     }
-    void shuffle() {
+    public void shuffle() {
         for (int i = 0; i < cards.length; i++) {
             int rIdx = (int)(Math.random() * cards.length);
             if (i == rIdx) { continue; }
@@ -45,7 +45,7 @@ public class CardDeck {
             cards[rIdx] = temp;
         }
     }
-    Card pick() {
+    public Card pick() {
         if (idx == cards.length) {return null;}
         Card temp = cards[idx];
         cards[idx++] = null;

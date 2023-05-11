@@ -20,6 +20,7 @@ class Buyer {
     public Buyer() {
         this.money = 1000;
         this.bonusPoint = 0;
+        printState();
     }
 
     void buy(Product p) {
@@ -28,7 +29,7 @@ class Buyer {
         System.out.printf("%s을(를) %d만원에 구매하였습니다.\n", p, p.getPrice());
     }
     void printState() {
-        System.out.printf("나의 남은 돈은 %,d만원 입니다. 보너스 점수는 %d점 입니다.\n", money, bonusPoint);
+        System.out.printf("나의 현재 돈은 %,d만원 입니다. 현재 보너스 점수는 %d점 입니다.\n", money, bonusPoint);
     }
 }
 
