@@ -2,8 +2,10 @@
   <library name="mariadb-java-client-3.1.3">
     <CLASSES>
       <root url="jar://$USER_HOME$/Downloads/mariadb-java-client-3.1.3.jar!/" />
+      <root url="file://$MAVEN_REPOSITORY$/org/mariadb/jdbc/mariadb-java-client/3.1.4" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
+    <jarDirectory url="file://$MAVEN_REPOSITORY$/org/mariadb/jdbc/mariadb-java-client/3.1.4" recursive="false" />
   </library>
 </component>
